@@ -20,6 +20,7 @@
 		82C673E72B5836250025853F /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673E62B5836250025853F /* FrameworkGridViewModel.swift */; };
 		82C673E92B5900720025853F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673E82B5900720025853F /* SafariView.swift */; };
 		82C673EB2B5906EB0025853F /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673EA2B5906EB0025853F /* FrameworkTitleView.swift */; };
+		82C673ED2B5927F00025853F /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673EC2B5927F00025853F /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		82C673E62B5836250025853F /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		82C673E82B5900720025853F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		82C673EA2B5906EB0025853F /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		82C673EC2B5927F00025853F /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				82C673E62B5836250025853F /* FrameworkGridViewModel.swift */,
 				82C673E82B5900720025853F /* SafariView.swift */,
 				82C673EA2B5906EB0025853F /* FrameworkTitleView.swift */,
+				82C673EC2B5927F00025853F /* XDismissButton.swift */,
 			);
 			path = SwiftUIFramework;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			files = (
 				82C673E32B57F99F0025853F /* FrameworkDetailView.swift in Sources */,
 				82C673E12B542CE70025853F /* FrameworkGridView.swift in Sources */,
+				82C673ED2B5927F00025853F /* XDismissButton.swift in Sources */,
 				82C673BB2B542A370025853F /* Framework.swift in Sources */,
 				82C673E52B5802110025853F /* AFButton.swift in Sources */,
 				82C673912B5429900025853F /* SwiftUIFrameworkApp.swift in Sources */,
