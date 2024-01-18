@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		82C673912B5429900025853F /* SwiftUIFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673902B5429900025853F /* SwiftUIFrameworkApp.swift */; };
-		82C673932B5429900025853F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673922B5429900025853F /* ContentView.swift */; };
 		82C673952B5429920025853F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C673942B5429920025853F /* Assets.xcassets */; };
 		82C673982B5429920025853F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C673972B5429920025853F /* Preview Assets.xcassets */; };
 		82C673A22B5429930025853F /* SwiftUIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673A12B5429930025853F /* SwiftUIFrameworkTests.swift */; };
 		82C673AC2B5429930025853F /* SwiftUIFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673AB2B5429930025853F /* SwiftUIFrameworkUITests.swift */; };
 		82C673AE2B5429930025853F /* SwiftUIFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673AD2B5429930025853F /* SwiftUIFrameworkUITestsLaunchTests.swift */; };
+		82C673BB2B542A370025853F /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673BA2B542A370025853F /* Framework.swift */; };
+		82C673E12B542CE70025853F /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673E02B542CE70025853F /* FrameworkGridView.swift */; };
+		82C673E32B57F99F0025853F /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673E22B57F99F0025853F /* FrameworkDetailView.swift */; };
+		82C673E52B5802110025853F /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673E42B5802110025853F /* AFButton.swift */; };
+		82C673E72B5836250025853F /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673E62B5836250025853F /* FrameworkGridViewModel.swift */; };
+		82C673E92B5900720025853F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C673E82B5900720025853F /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		82C6738D2B5429900025853F /* SwiftUIFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C673902B5429900025853F /* SwiftUIFrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrameworkApp.swift; sourceTree = "<group>"; };
-		82C673922B5429900025853F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82C673942B5429920025853F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82C673972B5429920025853F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82C6739D2B5429930025853F /* SwiftUIFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		82C673A72B5429930025853F /* SwiftUIFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C673AB2B5429930025853F /* SwiftUIFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrameworkUITests.swift; sourceTree = "<group>"; };
 		82C673AD2B5429930025853F /* SwiftUIFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82C673BA2B542A370025853F /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		82C673E02B542CE70025853F /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		82C673E22B57F99F0025853F /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		82C673E42B5802110025853F /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		82C673E62B5836250025853F /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		82C673E82B5900720025853F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				82C673902B5429900025853F /* SwiftUIFrameworkApp.swift */,
-				82C673922B5429900025853F /* ContentView.swift */,
 				82C673942B5429920025853F /* Assets.xcassets */,
 				82C673962B5429920025853F /* Preview Content */,
+				82C673BA2B542A370025853F /* Framework.swift */,
+				82C673E02B542CE70025853F /* FrameworkGridView.swift */,
+				82C673E22B57F99F0025853F /* FrameworkDetailView.swift */,
+				82C673E42B5802110025853F /* AFButton.swift */,
+				82C673E62B5836250025853F /* FrameworkGridViewModel.swift */,
+				82C673E82B5900720025853F /* SafariView.swift */,
 			);
 			path = SwiftUIFramework;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C673932B5429900025853F /* ContentView.swift in Sources */,
+				82C673E32B57F99F0025853F /* FrameworkDetailView.swift in Sources */,
+				82C673E12B542CE70025853F /* FrameworkGridView.swift in Sources */,
+				82C673BB2B542A370025853F /* Framework.swift in Sources */,
+				82C673E52B5802110025853F /* AFButton.swift in Sources */,
 				82C673912B5429900025853F /* SwiftUIFrameworkApp.swift in Sources */,
+				82C673E72B5836250025853F /* FrameworkGridViewModel.swift in Sources */,
+				82C673E92B5900720025853F /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
