@@ -13,21 +13,27 @@ struct FrameworkGridView: View {
     
     var body: some View {
         
-        NavigationView {
+        NavigationStack {
             //ScrollView{
 //                LazyVGrid(columns: viewModel.columns)
             List{
                     ForEach(MockData.frameworks, id: \.id){ framework in
-                        
-                        NavigationLink(destination: FrameworkDetailView(framework: framework, isShowingDetailView: $viewModel.isShowingDetailView)){
+                        NavigationLink(value: framework) {
                             FrameworkTitleView(framework: framework)
-
                         }
+                        
+
+        //                        NavigationLink(destination: FrameworkDetailView(framework: framework, isShowingDetailView: $viewModel.isShowingDetailView)){
+//                            FrameworkTitleView(framework: framework)
+//                        }
 //                            .onTapGesture {
 //                                viewModel.selectedFramework  = framework
 //                            }
                     }
                 }.navigationTitle("Apple Framework")
+                .navigationDestination(for: Framework.self) { framework in
+                    FrameworkDetailView(framework: framework)
+                }
         }.accentColor(Color(.label))
 //                .sheet(isPresented: $viewModel.isShowingDetailView) {
 //                    FrameworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework, isShowingDetailView: $viewModel.isShowingDetailView)
